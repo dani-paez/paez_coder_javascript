@@ -17,11 +17,11 @@ let labs = prompt("Elige cualquiera de nuestros LABS disponiles: \n1-LAB DE PANE
 function talleres () {
         while (labs != "x") {
                 if (labs == "1") {                
-                        alert("Te has inscripto al LAB de Panes y Pizzas, con un costo de" + " " + "$" + labPanesPizzas);
+                        alert("Te has inscripto al LAB de Panes y Pizzas, con un costo de $" + labPanesPizzas);
                 } else if (labs =="2") {                        
-                        alert("Te has inscripto al LAB de Reposteria, con un costo de" + " " + "$" + labReposteria);
+                        alert("Te has inscripto al LAB de Reposteria, con un costo de $" + labReposteria);
                 } else if (labs == "3") {                        
-                        alert("Te has inscripto al LAB de Nutrición, con un costo de" + " " + "$" + labNutricion);                         
+                        alert("Te has inscripto al LAB de Nutrición, con un costo de $" + labNutricion);                         
                 } else {
                         alert("Ese lab no se encuentra");
                 } 
