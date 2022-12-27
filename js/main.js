@@ -31,7 +31,7 @@ let labs = prompt("Muy bien, ahora elige cualquiera de nuestros LABS disponiles:
 function talleres () {
         while (labs != "x") {
                 if (labs == "1") {                
-                        alert("Te has inscripto al LAB de Panes y Pizzas, con un costo de $" + labPanesPizzas.precio);
+                        alert("Te has inscripto al LAB de Panes y Pizzas, con un costo de $" + labPanesPizzas);
                 } else if (labs =="2") {                        
                         alert("Te has inscripto al LAB de Reposteria, con un costo de $" + labReposteria);
                 } else if (labs == "3") {                        
